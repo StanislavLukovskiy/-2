@@ -17,4 +17,4 @@ return value; // Возвращаемое значение
 
 int number = ReadInt("Введите число"); // Вызов функции ввода числа
 int lastDigit = number % 100 / 10; // Определение второй цифры числа
-System.Console.WriteLine($"Последняя цифра числа {number} равна {lastDigit}"); // Вывод результата
+System.Console.WriteLine($"Вторая цифра числа {number} равна {lastDigit}"); // Вывод результата
